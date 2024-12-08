@@ -1,0 +1,108 @@
+name: adella.king
+description: matrices
+version: 0.0.1
+author: wg0cbsyi.3qmfc942@58ziju1k.com
+language: sql
+buildSystem: ''
+buildSystemDetails: null
+pipelines: {}
+datasets: {}
+templates: {}
+jobs: {}
+gemContainer:
+  languageVersion: ''
+  gemLibsVersion: ''
+  gems: {}
+  dependencies: null
+functions:
+  author: null
+  createdAt: '2024-12-08 23:48:26'
+  udfs: {}
+  udafs: {}
+  expressions: {}
+  airflowFunctions: {}
+  businessRules: {}
+subgraphs: {}
+sqlModels:
+  .prophecy/metadata/sqlmodels/model:
+    name: model
+    schema: null
+    description: model desc
+    author: wg0cbsyi.3qmfc942@58ziju1k.com
+    files:
+    - model.sql
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2024-12-08 23:48:28'
+  .prophecy/metadata/sqlmodels/newmodel:
+    name: newmodel
+    schema: null
+    description: desc model
+    author: wg0cbsyi.3qmfc942@58ziju1k.com
+    files:
+    - subpath/newmodel.sql
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2024-12-08 23:48:28'
+sqlSnapshots: {}
+sqlTests: {}
+sqlMacros:
+  .prophecy/metadata/sqlmacros/macro:
+    name: macro
+    macroType: macro
+    description: macro desc
+    author: wg0cbsyi.3qmfc942@58ziju1k.com
+    files:
+    - sources.yml
+    createdAt: '2024-12-08 23:48:28'
+sqlSeeds:
+  .prophecy/metadata/sqlseeds/seed1:
+    name: seed1
+    schema: null
+    description: seed desc
+    author: wg0cbsyi.3qmfc942@58ziju1k.com
+    files:
+    - sources.yml
+    createdAt: '2024-12-08 23:48:28'
+sqlSources:
+  .prophecy/metadata/sqlsources/source:
+    name: source
+    description: source desc
+    author: wg0cbsyi.3qmfc942@58ziju1k.com
+    files:
+    - sources.yml
+    createdAt: '2024-12-08 23:48:28'
+    tables: []
+  .prophecy/metadata/sqlsources/multipleFileSource:
+    name: multipleFileSource
+    description: multipleFileSource desc
+    author: wg0cbsyi.3qmfc942@58ziju1k.com
+    files:
+    - sources1.yml
+    - mfs/src/multipleFileSource.yml
+    createdAt: '2024-12-08 23:48:28'
+    tables:
+    - name: table1
+      schema: null
+      description: descr 1
+      author: wg0cbsyi.3qmfc942@58ziju1k.com
+      createdAt: '2024-12-08 23:48:28'
+sqlUnreferencedSources: {}
+sqlPipeline:
+  name: sqlPipeline
+  description: null
+  author: wg0cbsyi.3qmfc942@58ziju1k.com
+  createdAt: '2024-12-08 23:48:26'
+dependencies: []
+projectDependencies: {}
+flags:
+  shouldAddDefaultDependenciesIfAbsent: true
+pipelineConfigurations: {}
